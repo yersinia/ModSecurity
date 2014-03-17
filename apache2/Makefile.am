@@ -33,6 +33,7 @@ mod_security2_la_CFLAGS = @APR_CFLAGS@ \
     @APU_CFLAGS@ \
     @APXS_CFLAGS@ \
     @CURL_CFLAGS@ \
+    @LIBMEMCACHED_CFLAGS@ \
     @LIBXML2_CFLAGS@ \
     @LUA_CFLAGS@ \
     @MODSEC_EXTRA_CFLAGS@ \
@@ -45,6 +46,7 @@ mod_security2_la_CPPFLAGS = @APR_CPPFLAGS@ \
 
 mod_security2_la_LIBADD = @APR_LDADD@ \
     @APU_LDADD@ \
+    @LIBMEMCACHED_LDADD@ \
     @LIBXML2_LDADD@ \
     @LUA_LDADD@ \
     @PCRE_LDADD@
@@ -54,6 +56,7 @@ mod_security2_la_LDFLAGS = -module -avoid-version \
     @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@
@@ -64,6 +67,7 @@ mod_security2_la_LDFLAGS = -module -avoid-version \
     @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@
@@ -74,6 +78,7 @@ mod_security2_la_LDFLAGS = -module -avoid-version \
     @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@
@@ -84,6 +89,7 @@ mod_security2_la_LDFLAGS = -module -avoid-version \
     @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@
@@ -94,6 +100,7 @@ mod_security2_la_LDFLAGS = -no-undefined -module -avoid-version -R @PCRE_LD_PATH
     @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@
@@ -104,6 +111,7 @@ mod_security2_la_LDFLAGS = -no-undefined -module -avoid-version \
     @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@
@@ -114,6 +122,7 @@ mod_security2_la_LDFLAGS = -no-undefined -module -avoid-version \
     @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@
@@ -124,6 +133,7 @@ mod_security2_la_LDFLAGS = -no-undefined -module -avoid-version \
     @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@

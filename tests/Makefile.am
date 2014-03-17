@@ -29,6 +29,7 @@ msc_test_SOURCES = msc_test.c \
 msc_test_CFLAGS = @APR_CFLAGS@ \
     @APU_CFLAGS@ \
     @APXS_CFLAGS@ \
+    @LIBMEMCACHED_CFLAGS@ \
     @LIBXML2_CFLAGS@ \
     @LUA_CFLAGS@ \
     @MODSEC_EXTRA_CFLAGS@ \
@@ -41,6 +42,7 @@ msc_test_CPPFLAGS = -I$(top_srcdir)/apache2 \
     
 msc_test_LDADD = @APR_LDADD@ \
     @APU_LDADD@ \
+    @LIBMEMCACHED_LDADD@ \
     @LIBXML2_LDADD@ \
     @LUA_LDADD@ \
     @PCRE_LDADD@
@@ -48,6 +50,7 @@ msc_test_LDADD = @APR_LDADD@ \
 msc_test_LDFLAGS = @APR_LDFLAGS@ \
     @APU_LDFLAGS@ \
     @APXS_LDFLAGS@ \
+    @LIBMEMCACHED_LDFLAGS@ \
     @LIBXML2_LDFLAGS@ \
     @LUA_LDFLAGS@ \
     @PCRE_LDFLAGS@

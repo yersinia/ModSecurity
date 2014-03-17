@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# This file should be auto-generated whenever modsecurity is configured as standalone.
-
 CFLAGS="$CFLAGS \
      -I/usr/include/apr-1.0  \
      -I/usr/include/apr-1.0 -I/usr/include \
